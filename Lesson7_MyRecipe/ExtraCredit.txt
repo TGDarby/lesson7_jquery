@@ -1,0 +1,12 @@
+In this application, a height animation toggles on and 
+off whenever a user hovers over a sub heading. This requires 
+the DOM to be traversed so that the the event that happens on
+an <h3> tag results in an animation of the contents of the 
+<div> tag. This event also results in the background-color of 
+the <h3> tag turning into the same blue as the header, giving 
+the application some visual consistency. 
+
+Further functionality was added through the creation of an 
+event that turns individual <li> tags and <p> tags red when 
+clicked. This would allow the user to keep track of what step
+they are on and what ingredients have already been used.
